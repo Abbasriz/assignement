@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .product-card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      max-width: 300px;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    sidebar {
+      background-color: #eee;
+      padding: 20px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    sidebar a {
+      margin: 5px 0;
+      color: #333;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      main {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Product Showcase</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <main>
+    <div class="product-card">
+      <img src="product1.jpg" alt="Product 1">
+      <h2>Product 1</h2>
+      <p>Description of Product 1</p>
+    </div>
+    <div class="product-card">
+      <img src="product2.jpg" alt="Product 2">
+      <h2>Product 2</h2>
+      <p>Description of Product 2</p>
+    </div>
+    <div class="product-card">
+      <img src="product3.jpg" alt="Product 3">
+      <h2>Product 3</h2>
+      <p>Description of Product 3</p>
+    </div>
+  </main>
+  <sidebar>
+    <a href="#">Related Link 1</a>
+    <a href="#">Related Link 2</a>
+    <a href="#">Related Link 3</a>
+  </sidebar>
+  <footer>
+    &copy; 2023 Product Showcase
+  </footer>
+</body>
+</html>
